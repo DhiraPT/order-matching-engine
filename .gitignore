@@ -1,0 +1,41 @@
+# Ignore build directories
+/build/
+out/
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+*.out
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+CMakeLists.txt.user
+CMakePresets.json
+
+# Ninja build files
+build.ninja
+.ninja_deps
+.ninja_log
+
+# Debugging files
+*.tld
+*.dSYM/
+*.pdb
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# IDE specific files
+.vscode/
+.idea/
+*.iml
